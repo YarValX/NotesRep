@@ -1,4 +1,6 @@
 import json
+from Note import Note
+from datetime import datetime
 class NotesManager:
     def __init__(self, file_path):
         self.file_path = file_path
